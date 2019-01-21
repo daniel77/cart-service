@@ -1,0 +1,10 @@
+---
+applications:
+  - name: cart-service-da362360
+    path: ./target/cart-service-0.0.7.jar
+    routes:
+      - route: cart-service-da362360.apps.dev.pcf-aws.com
+    memory: 800M
+    instances: 1
+    services:
+      - danielgorski
